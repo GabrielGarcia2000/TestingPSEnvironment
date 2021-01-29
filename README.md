@@ -1,4 +1,4 @@
-# TestingPSEnvironment
+# Testing Powershell Environment
 DBA Powershell Scripts, Microsoft SQL Server, Automation
 
 This set of scripts with help you testing you environment where you are going to execute your powershell scripts.
