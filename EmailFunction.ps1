@@ -1,3 +1,15 @@
+#***********************************************************************
+# PowerShell : EmailFunction.ps1                                       *
+#   Function : Testing SMTP relay server.                              *
+#            :                                                         *
+#            :                                                         *
+#***********************************************************************
+#                 M O D I F I C A T I O N S                            *
+# -- Date -- ---- Name ---- --------- Description -------------------- *
+# 11/06/2009 Gabriel Garcia Created.                                   *
+#                                                                      *
+#***********************************************************************
+
 function sendMail($mailto, $Subject, $Body, $smtpSrvr, $AttchFile){
 	### Host Name
 	$strIPGlobalProperties = [System.Net.NetworkInformation.IPGlobalProperties]::GetIPGlobalProperties()
