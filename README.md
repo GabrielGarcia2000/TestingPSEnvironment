@@ -6,5 +6,5 @@ This set of scripts with help you testing you environment where you are going to
 Considerations and notes.
 
 You should set scripts on folder called C:\Scripts\
-Computer hosting script needs to have MS Excell to create excell output file.
+Computer hosting script needs to have MS Excel to create excel format output file.
 SMO objet need to be install on host computer.
