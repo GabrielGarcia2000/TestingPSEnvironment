@@ -18,12 +18,12 @@
 $strIPGlobalProperties = [System.Net.NetworkInformation.IPGlobalProperties]::GetIPGlobalProperties()
 
 ### Parameters
-$emailfrom = [string]$strIPGlobalProperties.HostName + "@bexar.org"
-$emailto = "ggarcia@bexar.org"
+$emailfrom = [string]$strIPGlobalProperties.HostName + "@domainname.org"
+$emailto = "myemail@domainname.org"
 $emailsubject = "My subject"
 $emailbody = "My email message."
 
-$SMTPServer = "smtp.bexar.org"
+$SMTPServer = "smtp.domainname.org"
 $strOutFileName = "C:\Scripts\TestEnvironment\TestEmail_AttchmentSample.txt"
 # $SMTPAuthUsername = "MyUserName"
 # $SMTPAuthPassword = "MySMTPUserPassword"
